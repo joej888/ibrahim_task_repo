@@ -2,8 +2,8 @@
     "openapi": "3.0.0",
     "info": {
         "version": "1.0.0",
-        "title": "Document Management Systems",
-        "description": "Document Management Systems API",
+        "title": "Simple API DEVELOPMENT",
+        "description": "Ibrahim API task to check rediness",
         "license": {
             "name": "MIT",
             "url": "https://opensource.org/licenses/MIT"
@@ -32,7 +32,10 @@
                 "summary": "Get user information",
                 "responses": {
                     "200": {
-                        "description": "User Fetched"
+                        "description": "User Data Fetched"
+                    },
+                    "400": {
+                        "description": "Cannot retrive data"
                     }
                 }
             }
