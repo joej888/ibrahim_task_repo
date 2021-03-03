@@ -1,0 +1,41 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Document Management Systems",
+        "description": "Document Management Systems API",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:3000",
+    "basePath": "/",
+    "tags": [
+        {
+            "name": "Ibrahim Task",
+            "description": "Simple Get function"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/userInfo": {
+            "get": {
+                "summary": "Get user information",
+                "responses": {
+                    "200": {
+                        "description": "User Fetched"
+                    }
+                }
+            }
+        }
+    }
+}
